@@ -1,0 +1,39 @@
+.error-popup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.error-popup__paragraph {
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: large;
+    color: white;
+    border: solid 1px #ff6e87;
+    background: red;
+    box-shadow: 0 0 2px 2px grey;
+}
+
+.errorFade-enter {
+    opacity: 0.01;
+}
+
+.errorFade-enter.errorFade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.errorFade-leave {
+    opacity: 1;
+}
+
+.errorFade-leave.errorFade-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}

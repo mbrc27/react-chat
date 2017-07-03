@@ -1,0 +1,22 @@
+.google-login {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  padding: 5px;
+  border: 0;
+  background: white;
+  box-shadow: 0 0 3px 3px #bababa;
+  transition: background-color .218s, border-color .218s, box-shadow .218s;
+}
+
+.google-login:hover {
+  box-shadow: 0 0 3px 3px rgba(66, 133, 244, .3);
+}
+
+.google-login__label {
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}

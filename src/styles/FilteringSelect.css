@@ -1,0 +1,50 @@
+.filtering-select {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.filtering-select__input {
+  appearance: none;
+  font-size: large;
+  text-align: center;
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 2px 2px #adadad;
+  margin: 0;
+  width: 100%;
+}
+
+.filtering-select__list-wrapper {
+  position: relative;
+}
+
+.filtering-select__list {
+  padding: 10px;
+  list-style: none;
+  box-shadow: 0 0 1px 1px #adadad;
+  position: absolute;
+  background: white;
+  top: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.filtering-select__list--hidden {
+  display: none;
+}
+
+.filtering-select__list-item:hover {
+  background: #ebfffe;
+}
+
+.filtering-select__list-item {
+  margin: -10px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.filtering-select__list-item-label {
+  display: block;
+}

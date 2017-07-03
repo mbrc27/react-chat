@@ -1,0 +1,9 @@
+.login-info {
+    margin: 10px;
+}
+
+.login-info__log-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

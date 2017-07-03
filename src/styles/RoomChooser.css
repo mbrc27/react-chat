@@ -1,0 +1,25 @@
+.room-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.room-buttons__btn {
+    cursor: pointer;
+    padding: 10px;
+    border: 0;
+    box-shadow: 0 0 2px inset;
+    background: cadetblue;
+    border-radius: 10px;
+    font-size: large;
+    color: white;
+    transition: background .5s;
+}
+
+.room-buttons__btn:not([disabled]):hover {
+    background: #1bce92;
+}
+
+.room-buttons__btn--disabled {
+    background: #d2d2d2;
+}

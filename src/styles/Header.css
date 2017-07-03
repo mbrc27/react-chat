@@ -1,0 +1,16 @@
+.header {
+    background: #6bd3b0;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
+
+.header__link {
+    padding:10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: color 0.5s;
+}
+.header__link:hover {
+    color: hotpink;
+}

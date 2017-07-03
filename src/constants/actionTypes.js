@@ -1,0 +1,15 @@
+export const CONNECT = 'CONNECT';
+export const DISCONNECT = 'DISCONNECT';
+export const POST_MESSAGE = 'POST_MESSAGE';
+export const MESSAGE_SUCCESS = 'MESSAGE_SUCCESS';
+export const MESSAGES = 'MESSAGES';
+export const FETCH_ROOMS = 'FETCH_ROOMS';
+export const CREATE_ROOM = 'CREATE_ROOM';
+export const ROOMS = 'ROOMS';
+export const CURRENT_ROOM = 'CURRENT_ROOM';
+export const ERROR = 'ERROR';
+export const GOOGLE_LOGIN = 'GOOGLE_LOGIN';
+export const GOOGLE_TOKEN = 'GOOGLE_TOKEN';
+export const USER_SIGNED = 'USER_SIGNED';
+export const USER_NOT_SIGNED = 'USER_NOT_SIGNED';
+export const ANONYMOUS_LOGIN = 'ANONYMOUS_LOGIN';

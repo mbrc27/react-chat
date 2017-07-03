@@ -1,0 +1,28 @@
+.message-input {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.message-input__input {
+    height: 10vh;
+    width: 100%;
+    border-radius: 10px;
+    resize: none;
+}
+
+.message-input__button {
+    cursor: pointer;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background: #2673ff;
+    border: solid 1px #0066ff;
+    box-shadow: 0 0 2px 2px grey;
+    transition: background .5s;
+}
+
+.message-input__button:hover {
+    background: #0066ff;
+}

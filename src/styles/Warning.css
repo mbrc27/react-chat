@@ -1,0 +1,15 @@
+.warning {
+    box-shadow: 0 0 5px red;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: white;
+    width: 100%;
+}
+
+.warning p {
+    margin: 0;
+    padding: 5px;
+    font-size: small;
+    text-align: center;
+    color: red;
+}

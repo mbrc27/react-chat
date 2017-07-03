@@ -1,0 +1,18 @@
+.message {
+  box-shadow: 0 0 1px inset;
+  margin-top: -1px;
+}
+
+.message__content {
+  display: flex;
+  align-items: center;
+}
+.message__paragraph {
+  margin-left: 10px;
+}
+.message__timestamp {
+  margin: 0;
+  padding: 0;
+  color: grey;
+  font-size: xx-small;
+}

@@ -1,0 +1,23 @@
+.message-board {
+  padding-top: 5px;
+  height: 80vh;
+  overflow: auto;
+}
+
+.messageFade-enter {
+  opacity: 0.01;
+}
+
+.messageFade-enter.messageFade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.messageFade-leave {
+  opacity: 1;
+}
+
+.messageFade-leave.messageFade-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
